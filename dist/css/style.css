@@ -1,0 +1,53 @@
+/* Color Theme Swatches in Hex */
+nav {
+  width: 100%;
+  display: table;
+  background-color: #0d0d0d !important;
+}
+
+nav h2 {
+  font-family: "Roboto", sans-serif;
+  color: #f20505;
+  padding-top: 1.4rem;
+  padding-bottom: 1.2rem;
+}
+
+nav h2:hover {
+  background-color: #bf303c;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar {
+  padding: 0;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar .nav-link {
+  color: #bfbfbf !important;
+  font-size: 1.4rem;
+  padding: 1.4rem;
+}
+
+.navbar .nav-link:hover {
+  color: #fff !important;
+  background-color: #bf303c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navbar .right {
+  border-left: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+.navbar .right-1 {
+  border-left: 1px solid rgba(255, 255, 255, 0.38);
+  border-right: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+footer {
+  background-color: #0b688c;
+}
+/*# sourceMappingURL=style.css.map */
